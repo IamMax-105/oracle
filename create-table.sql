@@ -7,7 +7,7 @@ CREATE TABLE TEACHER ( --6
     CONSTRAINT chk_Specialization CHECK (Specialization IN ('Sc', 'So'))
 );
 
-
+m
 CREATE TABLE CLASSES ( --7
     ClassID NVARCHAR2(5) PRIMARY KEY ,
     ClassName NVARCHAR2(30),
